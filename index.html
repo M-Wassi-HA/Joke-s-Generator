@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        *{
+            font-family: "mulish",sans-serif;
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            margin-top: 10px;
+            margin-left: 33%;
+            width: 400px;
+            height: 200px;
+            background-color: black;
+            border-radius: 20px;
+            padding-left: 6px;
+        }
+        img{
+            width: 150px;
+            height: 80px;
+            margin-left: 20%;
+        }
+        button{
+        width: 100px;
+        height: 30px;
+        margin-left: 33%;
+        border: 1px solid yellow;
+        background-color: transparent;
+        color: yellow;
+        border-radius: 20px;
+        }
+        #get{
+            color: white;
+        }
+        @media only screen and (max-width: 1030px) {
+            .container{
+                margin-left: 10px;
+            }
+}
+    </style>
+<body>
+    <div class="container">
+        <img src="./Laughing-Emoji.png" alt="">
+        <h3 id="get"></h3><br>
+        <button onclick="myFun()">Get Jock's</button>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
